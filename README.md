@@ -1,6 +1,12 @@
 # SmallChatRoom
 A small chat room with authentication, registration and web socket.
 
++ Using ExpressJS framework.
++ Authentication with: express-session, passport.js, Local Strategy, passport.socketio.
++ Web socket with: socket.io.
++ Database using SQLite with sqlite3 library.
+
+Try live at: https://small-chat-room.glitch.me
 Setup
 ===
 
