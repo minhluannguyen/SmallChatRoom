@@ -7,6 +7,7 @@ A small chat room with authentication, registration and web socket.
 + Database using SQLite with sqlite3 library.
 
 Try live at: https://small-chat-room.glitch.me
+
 Setup
 ===
 
