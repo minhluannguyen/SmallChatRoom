@@ -1,0 +1,22 @@
+html
+  head
+    title File Server Register
+    meta(name='description', content='Home page')
+    link#favicon(rel='icon', href='https://hyperdev.com/favicon-app.ico', type='image/x-icon')
+    link(rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.10.0/css/all.css' integrity='sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p' crossorigin='anonymous')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/public/style.css')
+  body
+    h1.border.center Chat Room
+    h2.center Register
+    .login.center
+      form.login-form(autocomplete='off' action='/register' method='POST')
+        input(id='Username' type='text' name='username' placeholder='Username')
+        .input-icon
+          input(id='FirstPass' type='password' name='password' placeholder='Password')
+          input(id='SecondPass' type='password' name='re-password' placeholder='Comfirm Password')
+          p(id='Caution')
+        button(type='submit') Sign up
+  script(src='/public/register.js')

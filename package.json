@@ -1,0 +1,39 @@
+{
+	"name": "SmallChatRoom",
+	"author": "http://github.com/JosephLivengood",
+	"version": "0.0.1",
+	"description": "What am I about?",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"body-parser": "^1.16.0",
+		"cookie-parser": "^1.4.3",
+		"cors": "^2.8.1",
+		"express": "^4.14.1",
+		"express-session": "^1.15.0",
+		"helmet": "^3.4.0",
+		"passport": "^0.3.2",
+		"passport-github": "^1.1.0",
+		"passport-local": "^1.0.0",
+		"passport.socketio": "^3.7.0",
+		"pug": "^0.1.0",
+		"socket.io": "^2.3.0",
+		"sqlite3": "^5.0.0"
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://hyperdev.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}

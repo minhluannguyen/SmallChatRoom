@@ -1,0 +1,134 @@
+.border {
+  border-style: inset;
+  border-width: 1px;
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chat {
+  margin-top: 40px;
+  width: 500px;
+}
+
+.chat-box {
+  margin-top: 20px;
+  height: 500px;
+}
+
+#logout {
+  position: absolute;
+  bottom: 20px;
+}
+
+#messages { 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  height: 20em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#messages li { 
+  padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) { 
+  background: #eee;
+}
+
+.login-form {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.login-form input {
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  color: #333;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  display: block;
+  width: 100%;
+  transition: border 0.25s linear;
+  font-weight: normal;
+}
+
+.login-form input:focus {
+  border-color: var(#455af7);
+}
+
+.login-form button {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 4px;
+  color: white;
+  background-color: #455af7;
+  text-transform: uppercase;
+  margin-bottom: 1.0rem;
+}
+
+.login-form .input-icon {
+  position: relative;
+}
+
+.login-form .input-icon input {
+  padding-right: 4rem;
+}
+
+.login-form .input-icon i {
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+  transform: translateY(-50%);
+  color: #ccc;
+  cursor: pointer;
+}
+
+.contact-form-input {
+   color: #7287b9;
+   display: inline;
+   width: 65%;
+   padding: 1.5rem;
+   background-color: #e8ebfc;
+   border: 0;
+   outline: none;
+   resize: none;
+}
+
+.contact-form-input::-webkit-input-placeholder,
+          .contact-form-area::-webkit-input-placeholder {
+   color: #7287b9;
+}
+
+.contact-form-input {
+   border-radius: 5rem;
+}
+
+.contact-form-submit {
+  color: white;
+  padding: 1.5rem;
+  width: 25%;
+  max-width: 25rem;
+  border-radius: 5rem;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  background-color: #7b78f8;
+  box-shadow: 0 10px 20px 0 rgba(123, 120, 248, 0.5);
+}
+
+#caution {
+  color: red;
+}

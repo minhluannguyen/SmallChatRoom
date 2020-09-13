@@ -1,0 +1,24 @@
+html
+  head
+    title Chat Room
+    meta(name='description', content='Home page')
+    link#favicon(rel='icon', href='https://hyperdev.com/favicon-app.ico', type='image/x-icon')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/public/style.css')
+  body
+    h1.border.center Chat Room
+    h2.center Socket.IO Chat Room
+    .chat.center
+      p#num-users
+      .chat-box
+        ul#messages
+        
+        form(action="" autocomplete="off")
+          input.contact-form-input#message(name="message")
+          button.contact-form-submit(type="submit") Send
+      a#logout(href='/logout') Logout  
+    script(src='https://code.jquery.com/jquery-2.2.1.min.js', integrity='sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.2/socket.io.min.js')
+    script(src='/public/client.js')

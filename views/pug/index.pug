@@ -1,0 +1,22 @@
+html
+  head
+    title File Server Login
+    meta(name='description', content='Home page')
+    link#favicon(rel='icon', href='https://hyperdev.com/favicon-app.ico', type='image/x-icon')
+    link(rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.10.0/css/all.css' integrity='sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p' crossorigin='anonymous')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/public/style.css')
+  body
+    h1.border.center Chat Room
+    h2.center Please login
+    .login.center
+      form.login-form(autocomplete='off' action='/login' method='POST')
+        input(type='text' name='username' placeholder='Username')
+        .input-icon
+          input(type='password' name='password' placeholder='Password')
+          <!-- i.fa.fa-eye.show-password -->
+        button(type='submit') Sign in
+        form.login-form(action='/signin' method='GET')
+          button Register
